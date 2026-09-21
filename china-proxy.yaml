@@ -1,0 +1,48 @@
+# China mainland public proxy subscription for Shadowrocket / Clash
+# Source: ProxyScrape free-proxy-list (CN shard)
+# Generated 2026-09-22. Public proxies are unstable; do not use for sensitive logins.
+proxies:
+  - {name: "🇨🇳 广东-广州 SOCKS5 94%", type: socks5, server: 103.210.161.8, port: 1080}
+  - {name: "🇨🇳 广东-广州 HTTP 99%", type: http, server: 120.232.115.57, port: 17981}
+  - {name: "🇨🇳 广东-广州 HTTP 99A", type: http, server: 120.232.115.170, port: 17981}
+  - {name: "🇨🇳 广东-深圳 HTTP", type: http, server: 119.123.247.159, port: 9000}
+  - {name: "🇨🇳 北京 SOCKS5 46%", type: socks5, server: 123.112.120.208, port: 1080}
+  - {name: "🇨🇳 北京 SOCKS5 97%", type: socks5, server: 111.206.4.163, port: 18888}
+  - {name: "🇨🇳 北京 HTTP 97%", type: http, server: 111.206.4.163, port: 18888}
+  - {name: "🇨🇳 上海 HTTP 57%", type: http, server: 123.60.155.1, port: 3128}
+  - {name: "🇨🇳 上海 SOCKS5", type: socks5, server: 116.236.146.234, port: 4145}
+  - {name: "🇨🇳 浙江-杭州 HTTP 93%", type: http, server: 116.196.150.180, port: 17981}
+  - {name: "🇨🇳 浙江-杭州 HTTP 71%", type: http, server: 101.66.194.68, port: 8085}
+  - {name: "🇨🇳 浙江-宁波 HTTP 98%", type: http, server: 122.246.3.12, port: 17981}
+  - {name: "🇨🇳 浙江-宁波 HTTP 100%", type: http, server: 122.246.4.30, port: 17981}
+  - {name: "🇨🇳 江苏-南京 HTTP 93%", type: http, server: 36.155.23.163, port: 10808}
+  - {name: "🇨🇳 江苏-南京 SOCKS5 89%", type: socks5, server: 36.155.23.163, port: 10808}
+  - {name: "🇨🇳 江苏-苏州 SOCKS5", type: socks5, server: 221.225.48.102, port: 8989}
+  - {name: "🇨🇳 山东-济南 HTTP 89%", type: http, server: 119.188.131.55, port: 17981}
+  - {name: "🇨🇳 四川-成都 HTTP", type: http, server: 171.213.154.157, port: 7890}
+  - {name: "🇨🇳 重庆 SOCKS5 99%", type: socks5, server: 113.249.111.67, port: 1080}
+  - {name: "🇨🇳 重庆 HTTP 67%", type: http, server: 61.186.243.6, port: 9002}
+  - {name: "🇨🇳 安徽-合肥 HTTP 65%", type: http, server: 202.141.161.52, port: 10808}
+  - {name: "🇨🇳 安徽-合肥 SOCKS5 53%", type: socks5, server: 202.141.161.52, port: 10808}
+  - {name: "🇨🇳 河南-郑州 HTTP 98%", type: http, server: 61.158.175.38, port: 9002}
+  - {name: "🇨🇳 河北-石家庄 HTTP 97%", type: http, server: 27.185.218.213, port: 17981}
+  - {name: "🇨🇳 福建-福州 HTTP", type: http, server: 112.5.128.78, port: 8060}
+  - {name: "🇨🇳 海南-海口 HTTP 98%", type: http, server: 153.0.171.163, port: 8085}
+  - {name: "🇨🇳 广西-河池 HTTP 86%", type: http, server: 219.148.171.178, port: 9445}
+  - {name: "🇨🇳 内蒙古-呼和浩特 SOCKS4", type: socks4, server: 58.18.39.58, port: 10800}
+proxy-groups:
+  - name: "🇨🇳 国内IP"
+    type: select
+    proxies:
+      - "🇨🇳 广东-广州 SOCKS5 94%"
+      - "🇨🇳 广东-广州 HTTP 99%"
+      - "🇨🇳 北京 SOCKS5 97%"
+      - "🇨🇳 上海 HTTP 57%"
+      - "🇨🇳 浙江-杭州 HTTP 93%"
+      - "🇨🇳 江苏-南京 HTTP 93%"
+      - "🇨🇳 山东-济南 HTTP 89%"
+      - "🇨🇳 重庆 SOCKS5 99%"
+      - "🇨🇳 河南-郑州 HTTP 98%"
+      - "🇨🇳 海南-海口 HTTP 98%"
+rules:
+  - MATCH,🇨🇳 国内IP
