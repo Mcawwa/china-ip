@@ -2,48 +2,58 @@
 # Sources: ProxyScrape + monosans. Public proxies are untrusted and may disappear at any time.
 proxies:
   - {name: "🇨🇳 上海 HTTP 01", type: http, server: 123.60.155.1, port: 3128}
-  - {name: "🇨🇳 上海 SOCKS4 02", type: socks4, server: 180.158.166.144, port: 4145}
-  - {name: "🇨🇳 北京 HTTP 03", type: http, server: 111.192.61.250, port: 8888}
-  - {name: "🇨🇳 北京 HTTP 04", type: http, server: 123.57.0.163, port: 8888}
+  - {name: "🇨🇳 上海 SOCKS5 02", type: socks5, server: 180.158.222.93, port: 1080}
+  - {name: "🇨🇳 上海 SOCKS4 03", type: socks4, server: 180.158.166.144, port: 4145}
+  - {name: "🇨🇳 内蒙古-呼和浩特 SOCKS4 04", type: socks4, server: 58.18.39.58, port: 10800}
   - {name: "🇨🇳 北京 HTTP 05", type: http, server: 111.201.98.99, port: 8888}
-  - {name: "🇨🇳 四川-成都 SOCKS4 06", type: socks4, server: 8.137.127.197, port: 9080}
-  - {name: "🇨🇳 山东-济南 HTTP 07", type: http, server: 39.71.2.128, port: 20002}
-  - {name: "🇨🇳 山东-济南 SOCKS4 08", type: socks4, server: 39.71.2.128, port: 20002}
-  - {name: "🇨🇳 广东-广州 HTTP 09", type: http, server: 8.138.217.152, port: 21001}
-  - {name: "🇨🇳 广东-广州 HTTP 10", type: http, server: 8.134.115.60, port: 21056}
-  - {name: "🇨🇳 广东-广州 HTTP 11", type: http, server: 120.232.115.57, port: 17981}
-  - {name: "🇨🇳 广东-深圳 HTTP 12", type: http, server: 47.107.107.24, port: 80}
-  - {name: "🇨🇳 河北-石家庄 HTTP 13", type: http, server: 27.185.218.213, port: 17981}
-  - {name: "🇨🇳 河南-郑州 HTTP 14", type: http, server: 61.158.175.38, port: 9002}
-  - {name: "🇨🇳 浙江-宁波 HTTP 15", type: http, server: 122.246.4.30, port: 17981}
-  - {name: "🇨🇳 浙江-宁波 HTTP 16", type: http, server: 122.246.3.12, port: 17981}
-  - {name: "🇨🇳 浙江-杭州 HTTP 17", type: http, server: 116.196.150.180, port: 17981}
-  - {name: "🇨🇳 浙江-杭州 SOCKS4 18", type: socks4, server: 122.231.249.31, port: 1080}
-  - {name: "🇨🇳 海南-海口 HTTP 19", type: http, server: 153.0.171.163, port: 8085}
-  - {name: "🇨🇳 重庆 SOCKS5 20", type: socks5, server: 58.144.196.192, port: 39105}
+  - {name: "🇨🇳 北京 HTTP 06", type: http, server: 123.57.0.163, port: 8888}
+  - {name: "🇨🇳 北京 HTTP 07", type: http, server: 113.204.79.230, port: 9091}
+  - {name: "🇨🇳 四川-成都 HTTP 08", type: http, server: 8.137.98.117, port: 21056}
+  - {name: "🇨🇳 四川-成都 SOCKS4 09", type: socks4, server: 171.221.240.100, port: 10800}
+  - {name: "🇨🇳 山东-济南 HTTP 10", type: http, server: 119.188.131.55, port: 17981}
+  - {name: "🇨🇳 山东-济南 HTTP 11", type: http, server: 39.71.2.128, port: 20002}
+  - {name: "🇨🇳 山东-济南 SOCKS4 12", type: socks4, server: 39.71.2.128, port: 20002}
+  - {name: "🇨🇳 广东-广州 HTTP 13", type: http, server: 8.138.217.152, port: 21001}
+  - {name: "🇨🇳 广东-广州 HTTP 14", type: http, server: 120.232.115.57, port: 17981}
+  - {name: "🇨🇳 广东-广州 HTTP 15", type: http, server: 120.232.115.170, port: 17981}
+  - {name: "🇨🇳 广东-深圳 HTTP 16", type: http, server: 47.107.107.24, port: 80}
+  - {name: "🇨🇳 江苏-南京 HTTP 17", type: http, server: 180.125.216.109, port: 8118}
+  - {name: "🇨🇳 河北-石家庄 HTTP 18", type: http, server: 27.185.218.213, port: 17981}
+  - {name: "🇨🇳 河南-郑州 HTTP 19", type: http, server: 61.158.175.38, port: 9002}
+  - {name: "🇨🇳 浙江-宁波 HTTP 20", type: http, server: 122.246.4.30, port: 17981}
+  - {name: "🇨🇳 浙江-宁波 HTTP 21", type: http, server: 122.246.3.12, port: 17981}
+  - {name: "🇨🇳 浙江-杭州 HTTP 22", type: http, server: 116.196.150.180, port: 17981}
+  - {name: "🇨🇳 海南-海口 HTTP 23", type: http, server: 153.0.171.163, port: 8085}
+  - {name: "🇨🇳 福建-福州 HTTP 24", type: http, server: 112.5.128.78, port: 8060}
+  - {name: "🇨🇳 重庆 SOCKS5 25", type: socks5, server: 113.249.111.67, port: 1080}
 proxy-groups:
   - name: "🇨🇳 国内IP"
     type: select
     proxies:
       - "🇨🇳 上海 HTTP 01"
-      - "🇨🇳 上海 SOCKS4 02"
-      - "🇨🇳 北京 HTTP 03"
-      - "🇨🇳 北京 HTTP 04"
+      - "🇨🇳 上海 SOCKS5 02"
+      - "🇨🇳 上海 SOCKS4 03"
+      - "🇨🇳 内蒙古-呼和浩特 SOCKS4 04"
       - "🇨🇳 北京 HTTP 05"
-      - "🇨🇳 四川-成都 SOCKS4 06"
-      - "🇨🇳 山东-济南 HTTP 07"
-      - "🇨🇳 山东-济南 SOCKS4 08"
-      - "🇨🇳 广东-广州 HTTP 09"
-      - "🇨🇳 广东-广州 HTTP 10"
-      - "🇨🇳 广东-广州 HTTP 11"
-      - "🇨🇳 广东-深圳 HTTP 12"
-      - "🇨🇳 河北-石家庄 HTTP 13"
-      - "🇨🇳 河南-郑州 HTTP 14"
-      - "🇨🇳 浙江-宁波 HTTP 15"
-      - "🇨🇳 浙江-宁波 HTTP 16"
-      - "🇨🇳 浙江-杭州 HTTP 17"
-      - "🇨🇳 浙江-杭州 SOCKS4 18"
-      - "🇨🇳 海南-海口 HTTP 19"
-      - "🇨🇳 重庆 SOCKS5 20"
+      - "🇨🇳 北京 HTTP 06"
+      - "🇨🇳 北京 HTTP 07"
+      - "🇨🇳 四川-成都 HTTP 08"
+      - "🇨🇳 四川-成都 SOCKS4 09"
+      - "🇨🇳 山东-济南 HTTP 10"
+      - "🇨🇳 山东-济南 HTTP 11"
+      - "🇨🇳 山东-济南 SOCKS4 12"
+      - "🇨🇳 广东-广州 HTTP 13"
+      - "🇨🇳 广东-广州 HTTP 14"
+      - "🇨🇳 广东-广州 HTTP 15"
+      - "🇨🇳 广东-深圳 HTTP 16"
+      - "🇨🇳 江苏-南京 HTTP 17"
+      - "🇨🇳 河北-石家庄 HTTP 18"
+      - "🇨🇳 河南-郑州 HTTP 19"
+      - "🇨🇳 浙江-宁波 HTTP 20"
+      - "🇨🇳 浙江-宁波 HTTP 21"
+      - "🇨🇳 浙江-杭州 HTTP 22"
+      - "🇨🇳 海南-海口 HTTP 23"
+      - "🇨🇳 福建-福州 HTTP 24"
+      - "🇨🇳 重庆 SOCKS5 25"
 rules:
   - MATCH,🇨🇳 国内IP
