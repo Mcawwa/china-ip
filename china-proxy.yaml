@@ -1,41 +1,61 @@
 # Auto-generated mainland China public proxy subscription for Shadowrocket / Clash
 # Sources: ProxyScrape + monosans. Public proxies are untrusted and may disappear at any time.
 proxies:
-  - {name: "🇨🇳 北京 HTTP 01", type: http, server: 49.233.205.10, port: 3128}
-  - {name: "🇨🇳 北京 HTTP 02", type: http, server: 123.57.0.163, port: 8888}
-  - {name: "🇨🇳 北京 HTTP 03", type: http, server: 123.121.98.109, port: 8888}
-  - {name: "🇨🇳 四川-成都 SOCKS4 04", type: socks4, server: 171.221.240.100, port: 10800}
-  - {name: "🇨🇳 四川-成都 SOCKS4 05", type: socks4, server: 222.212.85.149, port: 5678}
-  - {name: "🇨🇳 广东-广州 HTTP 06", type: http, server: 120.232.115.57, port: 17981}
-  - {name: "🇨🇳 广东-广州 HTTP 07", type: http, server: 120.232.115.170, port: 17981}
-  - {name: "🇨🇳 广东-广州 HTTP 08", type: http, server: 221.179.242.6, port: 11111}
-  - {name: "🇨🇳 广东-深圳 HTTP 09", type: http, server: 47.107.107.24, port: 80}
-  - {name: "🇨🇳 河北-石家庄 HTTP 10", type: http, server: 27.185.218.213, port: 17981}
-  - {name: "🇨🇳 河南-郑州 HTTP 11", type: http, server: 61.158.175.38, port: 9002}
-  - {name: "🇨🇳 浙江-宁波 HTTP 12", type: http, server: 122.246.4.30, port: 17981}
-  - {name: "🇨🇳 浙江-宁波 HTTP 13", type: http, server: 122.246.3.12, port: 17981}
-  - {name: "🇨🇳 海南-海口 HTTP 14", type: http, server: 153.0.171.163, port: 8085}
-  - {name: "🇨🇳 福建-福州 SOCKS5 15", type: socks5, server: 112.5.33.179, port: 999}
-  - {name: "🇨🇳 重庆 SOCKS5 16", type: socks5, server: 113.249.111.67, port: 1080}
+  - {name: "🇨🇳 上海 SOCKS5 01", type: socks5, server: 180.158.222.93, port: 1080}
+  - {name: "🇨🇳 上海 SOCKS4 02", type: socks4, server: 180.158.166.144, port: 4145}
+  - {name: "🇨🇳 内蒙古-呼和浩特 SOCKS4 03", type: socks4, server: 58.18.39.58, port: 10800}
+  - {name: "🇨🇳 北京 HTTP 04", type: http, server: 123.121.134.141, port: 8888}
+  - {name: "🇨🇳 北京 HTTP 05", type: http, server: 123.121.75.126, port: 8888}
+  - {name: "🇨🇳 北京 HTTP 06", type: http, server: 123.121.135.189, port: 8888}
+  - {name: "🇨🇳 四川-成都 SOCKS4 07", type: socks4, server: 171.221.240.100, port: 10800}
+  - {name: "🇨🇳 四川-成都 HTTP 08", type: http, server: 101.206.186.99, port: 8080}
+  - {name: "🇨🇳 四川-成都 SOCKS4 09", type: socks4, server: 222.212.85.149, port: 5678}
+  - {name: "🇨🇳 安徽-合肥 SOCKS4 10", type: socks4, server: 61.191.119.134, port: 10800}
+  - {name: "🇨🇳 山东-济南 HTTP 11", type: http, server: 119.188.131.55, port: 17981}
+  - {name: "🇨🇳 广东-广州 HTTP 12", type: http, server: 8.138.217.152, port: 21001}
+  - {name: "🇨🇳 广东-广州 HTTP 13", type: http, server: 120.232.115.57, port: 17981}
+  - {name: "🇨🇳 广东-广州 HTTP 14", type: http, server: 120.232.115.170, port: 17981}
+  - {name: "🇨🇳 广东-深圳 HTTP 15", type: http, server: 47.107.107.24, port: 80}
+  - {name: "🇨🇳 江苏-无锡 SOCKS4 16", type: socks4, server: 218.90.167.205, port: 1080}
+  - {name: "🇨🇳 河北-石家庄 HTTP 17", type: http, server: 27.185.218.213, port: 17981}
+  - {name: "🇨🇳 河南-郑州 HTTP 18", type: http, server: 61.158.175.38, port: 9002}
+  - {name: "🇨🇳 浙江-宁波 HTTP 19", type: http, server: 122.246.4.30, port: 17981}
+  - {name: "🇨🇳 浙江-宁波 HTTP 20", type: http, server: 122.246.3.12, port: 17981}
+  - {name: "🇨🇳 浙江-杭州 HTTP 21", type: http, server: 116.196.150.180, port: 17981}
+  - {name: "🇨🇳 浙江-杭州 SOCKS5 22", type: socks5, server: 39.170.29.226, port: 10800}
+  - {name: "🇨🇳 浙江-杭州 SOCKS4 23", type: socks4, server: 39.175.80.225, port: 1080}
+  - {name: "🇨🇳 海南-海口 HTTP 24", type: http, server: 153.0.171.163, port: 8085}
+  - {name: "🇨🇳 福建-福州 SOCKS5 25", type: socks5, server: 112.5.33.179, port: 999}
+  - {name: "🇨🇳 重庆 SOCKS5 26", type: socks5, server: 113.249.111.67, port: 1080}
 proxy-groups:
   - name: "🇨🇳 国内IP"
     type: select
     proxies:
-      - "🇨🇳 北京 HTTP 01"
-      - "🇨🇳 北京 HTTP 02"
-      - "🇨🇳 北京 HTTP 03"
-      - "🇨🇳 四川-成都 SOCKS4 04"
-      - "🇨🇳 四川-成都 SOCKS4 05"
-      - "🇨🇳 广东-广州 HTTP 06"
-      - "🇨🇳 广东-广州 HTTP 07"
-      - "🇨🇳 广东-广州 HTTP 08"
-      - "🇨🇳 广东-深圳 HTTP 09"
-      - "🇨🇳 河北-石家庄 HTTP 10"
-      - "🇨🇳 河南-郑州 HTTP 11"
-      - "🇨🇳 浙江-宁波 HTTP 12"
-      - "🇨🇳 浙江-宁波 HTTP 13"
-      - "🇨🇳 海南-海口 HTTP 14"
-      - "🇨🇳 福建-福州 SOCKS5 15"
-      - "🇨🇳 重庆 SOCKS5 16"
+      - "🇨🇳 上海 SOCKS5 01"
+      - "🇨🇳 上海 SOCKS4 02"
+      - "🇨🇳 内蒙古-呼和浩特 SOCKS4 03"
+      - "🇨🇳 北京 HTTP 04"
+      - "🇨🇳 北京 HTTP 05"
+      - "🇨🇳 北京 HTTP 06"
+      - "🇨🇳 四川-成都 SOCKS4 07"
+      - "🇨🇳 四川-成都 HTTP 08"
+      - "🇨🇳 四川-成都 SOCKS4 09"
+      - "🇨🇳 安徽-合肥 SOCKS4 10"
+      - "🇨🇳 山东-济南 HTTP 11"
+      - "🇨🇳 广东-广州 HTTP 12"
+      - "🇨🇳 广东-广州 HTTP 13"
+      - "🇨🇳 广东-广州 HTTP 14"
+      - "🇨🇳 广东-深圳 HTTP 15"
+      - "🇨🇳 江苏-无锡 SOCKS4 16"
+      - "🇨🇳 河北-石家庄 HTTP 17"
+      - "🇨🇳 河南-郑州 HTTP 18"
+      - "🇨🇳 浙江-宁波 HTTP 19"
+      - "🇨🇳 浙江-宁波 HTTP 20"
+      - "🇨🇳 浙江-杭州 HTTP 21"
+      - "🇨🇳 浙江-杭州 SOCKS5 22"
+      - "🇨🇳 浙江-杭州 SOCKS4 23"
+      - "🇨🇳 海南-海口 HTTP 24"
+      - "🇨🇳 福建-福州 SOCKS5 25"
+      - "🇨🇳 重庆 SOCKS5 26"
 rules:
   - MATCH,🇨🇳 国内IP
